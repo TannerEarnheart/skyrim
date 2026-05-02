@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background: url(https://images.alphacoders.com/203/thumb-1920-203543.jpg) no-repeat center center fixed;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(20,20,20, 0.9);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    border: 2px solid #555;
+}
+
+.skyrim-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.7));
+    background: transparent;
+}
+
+.skyrim-logo:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.9));
+}
+
+.title {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2.5em;
+    color: #727171;
+}
+
+.quote-box {
+    font-size: 1.5em;
+    margin-bottom:30px;
+    font-style:italic;
+    transition: all 0.5s ease;
+}
+
+button {
+    background: #727171;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #111;
+    font-family: 'Cinzel', serif;
+}
+
+button:hover {
+    background: #FFFFFF;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #000;
+}
+
+.fade {
+    opacity: 0;
+    transform: scale(0.98);
+}
